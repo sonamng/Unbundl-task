@@ -1,38 +1,195 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.responsive{
+  width: 100%;
+  height: 50px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-item{
+  margin-left: 75px;
+}
+.navbar-one{
+  width: 100%;
+  font-size: larger;
+  background-color:rgb(238, 249, 253);
+}
+.images-back{
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.container{
+  padding: 40px;
+}
+.apppp{
+  width: 100%;
+  height: auto;
+} 
+.main{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.padding-img{
+  padding-right: 20px;
+}
+.Handpic{
+font-family: 'Cormorant Garamond';
+font-style: normal;
+} 
+.headding, .hedding, .contect{
+  font-family: 'Cormorant Garamond';
+font-style: normal;
+color: black;
+font-weight: 700;
+}
+
+.img-fluid{
+  padding: 5px;
+  width: 28rem;
+  height: 20rem;
+}
+
+.card{
+  border-radius: 10px;
+  margin-top: 8px;
+  background-color: rgb(244, 248, 251);
+} 
+
+.main-div{
+  display: flex;
+  padding: 20px;
+}
+
+.img-fluid{
+  width: 20rem;
+} 
+.img-thumbnail{
+  width: 30rem;
+  height: 34rem;
+}
+
+
+.img-responsive{
+  position: relative;
+  top: -503px;
+  left: -74px;
+}
+.qualityclass{
+  margin-right: 190px; 
+} 
+
+.productclass{
+  margin-right:90px;
+}
+.easyclass{
+  margin-right: 164px;
+}
+.improvingclass{
+  margin-right: 102px;
+}
+.para{
+  margin-top: 20px;
+}
+hr{
+  border:  1px solid gray;
+}
+.submitbtn{
+  width: 254px;
+  height: 2rem;
+  margin-top: 10px;
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.img-thumbnail {
+  width: 30rem;
+  height: 34rem;
+  
+}
+.backgroung{
+  background-color:rgb(243, 249, 251);
+}
+.card-div{
+  position: relative;
+  background-color: lightgray;
+  width: 18rem;
+  height: 18rem;
+  left: 15%;
+  top: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+@media only screen and (max-width: 600px) {
+  .card-deck{
+    margin-left: -44px; 
+    margin-top: 40px;
   }
-  to {
-    transform: rotate(360deg);
+  .qualityclass{
+    margin-right: 80px; 
+  } 
+  
+  .productclass{
+    margin-right:80px;
   }
+  .easyclass{
+    margin-right: 80px;
+  }
+  .improvingclass{
+    margin-right: 80px;
+  }
+  .card-div{
+    display: none; 
+  }
+
+}
+
+
+
+
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background:rgb(222, 243, 250);
+position: relative;
+} 
+.footer-cta {
+border-bottom: 1px solid darkgray;
+}
+
+.footer-widget-heading h3 {
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+
+.footer-widget ul li {
+display: inline-block;
+width: 50%;
+margin-bottom: 12px;
+}
+
+.footer-widget ul li a {
+color:black;
+text-transform: capitalize;
+}
+
+
+.copyright-area{
+background: #202020;
+} 
+.copyright-text p {
+  margin: 0;
+  font-size: 15px;
+  color: #878787;
+}
+
+.address,.contect-div{
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  color: black;
+  font-weight: 700;
 }
